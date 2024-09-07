@@ -1,0 +1,305 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times New Roman, sans-serif;
+  line-height: 1.6;
+  background-color: PaleTurquoise; /* Changed background color */
+  color: DarkSlateGray;
+}
+
+/* Navigation Bar */
+
+nav {
+  background-color: DarkSlateGray;
+  color: LightCoral;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: LightCoral;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Home Section */
+
+#home {
+  background: url('background.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: LightCoral;
+  position: relative;
+  background-color: MintCream; /* Changed background color */
+}
+
+.home-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px LightGray;
+}
+
+.home-section h1 {
+  font-size: 3em;
+}
+
+.home-section p {
+  font-size: 1.5em;
+}
+
+.cta-button {
+  background-color: RoyalBlue;
+  color: LightCoral;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: MediumBlue;
+}
+
+/* About Me Section */
+
+#about-me {
+  padding: 50px;
+  background-color: PowderBlue; /* Changed background color */
+}
+
+.about-section h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+
+
+/* Contact Section */
+
+.contact-section {
+  padding: 50px;
+  background-color: Gainsboro;
+}
+
+.contact-section h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid LightGray;
+  border-radius: 5px;
+}
+
+.contact-section form button {
+  width: 100%;
+  padding: 15px;
+  background-color: DarkSlateGray;
+  color: LightCoral;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.contact-section form button:hover {
+  background-color: DimGray;
+}
+
+/* Footer */
+
+footer {
+  background-color: DarkSlateGray;
+  color: LightCoral;
+  text-align: center;
+  padding: 20px;
+}
+
+/* General image styling */
+
+img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+/* About Me Section */
+
+#about-me {
+  padding: 50px;
+  background-color: PowderBlue;
+}
+
+.about-section {
+  padding: 20px; /* Added padding for the entire About Me section */
+}
+
+.about-section h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-subtopic {
+  padding: 20px; /* Added padding for each subtopic */
+  margin-bottom: 20px;
+  border-bottom: 1px solid LightGray;
+}
+
+.about-subtopic:last-child {
+  border-bottom: none;
+}
+
+.about-subtopic h3 {
+  margin-bottom: 10px;
+}
+
+.about-subtopic p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+/* My Projects Section */
+
+.my-projects {
+  padding: 50px;
+  background-color: Coral; /* Changed background color to Coral */
+}
+
+.my-projects h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: Navy; /* Changed text color to Navy */
+}
+
+.my-projects p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: DarkSlateGray; /* Changed text color to DarkSlateGray */
+}
+
+/* Projects Section */
+
+.projects-section {
+  padding: 50px;
+  background-color: LightGray;
+}
+
+.projects-section h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background-color: Gainsboro;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px LightGray;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  margin-bottom: 15px;
+}
+
+.project-card .cta-button {
+  background-color: DarkSlateGray;
+  padding: 10px 15px;
+}
+
+.project-card .cta-button:hover {
+  background-color: DimGray;
+}
+/* Contact Section */
+
+.contact-section {
+  padding: 50px;
+  background-color: MediumSeaGreen; /* Changed background color to MediumSeaGreen */
+}
+
+.contact-section h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-section input, .contact-section textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid LightGray;
+  border-radius: 5px;
+}
+
+.contact-section button[type="submit"] {
+  background-color: DarkSlateGray;
+  color: White;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-section button[type="submit"]:hover {
+  background-color: DimGray;
+}
